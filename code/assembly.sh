@@ -13,4 +13,4 @@ module load bioinfo-tools
 module load canu
 
 # Commands
-canu -p pap3_ass -d /home/pheppe/assembly/assemblytry1 genomesize=2.41m genomeSize=2.41m executiveThreads=2 stopOnReadQuality=false -pacbio-raw /home/pheppe/raw_data/DNA_raw_data/ERR2028495.fastq.gz -pacbio-raw /home/pheppe/raw_data/DNA_raw_data/ERR2028496.fastq.gz -pacbio-raw /home/pheppe/raw_data/DNA_raw_data/ERR2028497.fastq.gz -pacbio-raw /home/pheppe/raw_data/DNA_raw_data/ERR2028500.fastq.gz -pacbio-raw /home/pheppe/raw_data/DNA_raw_data/ERR2028501.fastq.gz -pacbio-raw /home/pheppe/raw_data/DNA_raw_data/ERR2028502.fastq.gz 
+canu -p pap3_ass -d /home/pheppe/assembly/assemblytry1 genomesize=2.41m genomeSize=2.41m executiveThreads=2 stopOnReadQuality=false -pacbio-raw /home/pheppe/raw_data/DNA_raw_data/*.fastq.gz
